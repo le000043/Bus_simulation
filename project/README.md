@@ -11,7 +11,7 @@
 
 - `[path_to_cpplint]/cpplint/cpplint-cse.sh --root=[path_target_dir] [file_name]` -->
 ### A snapshot of what the bus simulation looks like
-![Image of bus_sim_01](https://github.com/le000043/Bus_simulation/tree/master/project/images/bus_sim_01.png)
+![Image of bus_sim_01](https://github.com/le000043/Bus_simulation/blob/master/project/images/bus_sim_01.png)
 ### UML diagram can be found in Bus_simulation/project/docs/UML_FINAL_2
 ### Setting up:
 **NOTE:** It is best to run on CSE Linux machine. Additionally, any Linux machines should be able to run this application
