@@ -1,0 +1,548 @@
+                                   -------BEGIN SIMULATION------
+                                   -------Time now is 0------
+~~~~~~~~~Routes report~~~~~~~~~
+Name: Campus Connector - Eastbound
+Num stops: 3
+ID: 0
+Passengers waiting: 0
+ID: 1
+Passengers waiting: 5
+Name: Ken
+Destination: 2
+Total Wait: 1
+	Wait at Stop: 1
+	Time on bus: 0
+Name: NiceGuy
+Destination: 2
+Total Wait: 1
+	Wait at Stop: 1
+	Time on bus: 0
+Name: NiceGal01
+Destination: 2
+Total Wait: 1
+	Wait at Stop: 1
+	Time on bus: 0
+Name: NiceGal02
+Destination: 2
+Total Wait: 1
+	Wait at Stop: 1
+	Time on bus: 0
+Name: NiceGal03
+Destination: 2
+Total Wait: 1
+	Wait at Stop: 1
+	Time on bus: 0
+ID: 2
+Passengers waiting: 0
+Name: Campus Connector - Westbound
+Num stops: 3
+ID: 3
+Passengers waiting: 1
+Name: Ninja
+Destination: 4
+Total Wait: 1
+	Wait at Stop: 1
+	Time on bus: 0
+ID: 4
+Passengers waiting: 6
+Name: Hacker01
+Destination: 5
+Total Wait: 1
+	Wait at Stop: 1
+	Time on bus: 0
+Name: Hacker02
+Destination: 5
+Total Wait: 1
+	Wait at Stop: 1
+	Time on bus: 0
+Name: NiceGal04
+Destination: 2
+Total Wait: 1
+	Wait at Stop: 1
+	Time on bus: 0
+Name: NiceGal05
+Destination: 2
+Total Wait: 1
+	Wait at Stop: 1
+	Time on bus: 0
+Name: NiceGal06
+Destination: 2
+Total Wait: 1
+	Wait at Stop: 1
+	Time on bus: 0
+Name: NiceGal07
+Destination: 2
+Total Wait: 1
+	Wait at Stop: 1
+	Time on bus: 0
+ID: 5
+Passengers waiting: 0
+~~~~~~~~~Busses report~~~~~~~~~
+Name: 1000
+Speed: 1
+Distance to next stop: 2
+	Passengers (3): 
+Name: John
+Destination: 2
+Total Wait: 1
+	Wait at Stop: 0
+	Time on bus: 1
+Name: Dan
+Destination: 2
+Total Wait: 1
+	Wait at Stop: 0
+	Time on bus: 1
+Name: Dom
+Destination: 2
+Total Wait: 1
+	Wait at Stop: 0
+	Time on bus: 1
+                                   -------Time now is 1------
+~~~~~~~~~Routes report~~~~~~~~~
+Name: Campus Connector - Eastbound
+Num stops: 3
+ID: 0
+Passengers waiting: 0
+ID: 1
+Passengers waiting: 5
+Name: Ken
+Destination: 2
+Total Wait: 2
+	Wait at Stop: 2
+	Time on bus: 0
+Name: NiceGuy
+Destination: 2
+Total Wait: 2
+	Wait at Stop: 2
+	Time on bus: 0
+Name: NiceGal01
+Destination: 2
+Total Wait: 2
+	Wait at Stop: 2
+	Time on bus: 0
+Name: NiceGal02
+Destination: 2
+Total Wait: 2
+	Wait at Stop: 2
+	Time on bus: 0
+Name: NiceGal03
+Destination: 2
+Total Wait: 2
+	Wait at Stop: 2
+	Time on bus: 0
+ID: 2
+Passengers waiting: 0
+Name: Campus Connector - Westbound
+Num stops: 3
+ID: 3
+Passengers waiting: 1
+Name: Ninja
+Destination: 4
+Total Wait: 2
+	Wait at Stop: 2
+	Time on bus: 0
+ID: 4
+Passengers waiting: 6
+Name: Hacker01
+Destination: 5
+Total Wait: 2
+	Wait at Stop: 2
+	Time on bus: 0
+Name: Hacker02
+Destination: 5
+Total Wait: 2
+	Wait at Stop: 2
+	Time on bus: 0
+Name: NiceGal04
+Destination: 2
+Total Wait: 2
+	Wait at Stop: 2
+	Time on bus: 0
+Name: NiceGal05
+Destination: 2
+Total Wait: 2
+	Wait at Stop: 2
+	Time on bus: 0
+Name: NiceGal06
+Destination: 2
+Total Wait: 2
+	Wait at Stop: 2
+	Time on bus: 0
+Name: NiceGal07
+Destination: 2
+Total Wait: 2
+	Wait at Stop: 2
+	Time on bus: 0
+ID: 5
+Passengers waiting: 0
+~~~~~~~~~Busses report~~~~~~~~~
+Name: 1000
+Speed: 1
+Distance to next stop: 1
+	Passengers (3): 
+Name: John
+Destination: 2
+Total Wait: 2
+	Wait at Stop: 0
+	Time on bus: 2
+Name: Dan
+Destination: 2
+Total Wait: 2
+	Wait at Stop: 0
+	Time on bus: 2
+Name: Dom
+Destination: 2
+Total Wait: 2
+	Wait at Stop: 0
+	Time on bus: 2
+                                   -------Time now is 2------
+~~~~~~~~~Routes report~~~~~~~~~
+Name: Campus Connector - Eastbound
+Num stops: 3
+ID: 0
+Passengers waiting: 0
+ID: 1
+Passengers waiting: 3
+Name: NiceGal01
+Destination: 2
+Total Wait: 3
+	Wait at Stop: 3
+	Time on bus: 0
+Name: NiceGal02
+Destination: 2
+Total Wait: 3
+	Wait at Stop: 3
+	Time on bus: 0
+Name: NiceGal03
+Destination: 2
+Total Wait: 3
+	Wait at Stop: 3
+	Time on bus: 0
+ID: 2
+Passengers waiting: 0
+Name: Campus Connector - Westbound
+Num stops: 3
+ID: 3
+Passengers waiting: 1
+Name: Ninja
+Destination: 4
+Total Wait: 3
+	Wait at Stop: 3
+	Time on bus: 0
+ID: 4
+Passengers waiting: 6
+Name: Hacker01
+Destination: 5
+Total Wait: 3
+	Wait at Stop: 3
+	Time on bus: 0
+Name: Hacker02
+Destination: 5
+Total Wait: 3
+	Wait at Stop: 3
+	Time on bus: 0
+Name: NiceGal04
+Destination: 2
+Total Wait: 3
+	Wait at Stop: 3
+	Time on bus: 0
+Name: NiceGal05
+Destination: 2
+Total Wait: 3
+	Wait at Stop: 3
+	Time on bus: 0
+Name: NiceGal06
+Destination: 2
+Total Wait: 3
+	Wait at Stop: 3
+	Time on bus: 0
+Name: NiceGal07
+Destination: 2
+Total Wait: 3
+	Wait at Stop: 3
+	Time on bus: 0
+ID: 5
+Passengers waiting: 0
+~~~~~~~~~Busses report~~~~~~~~~
+Name: 1000
+Speed: 1
+Distance to next stop: 1
+	Passengers (5): 
+Name: John
+Destination: 2
+Total Wait: 3
+	Wait at Stop: 0
+	Time on bus: 3
+Name: Dan
+Destination: 2
+Total Wait: 3
+	Wait at Stop: 0
+	Time on bus: 3
+Name: Dom
+Destination: 2
+Total Wait: 3
+	Wait at Stop: 0
+	Time on bus: 3
+Name: Ken
+Destination: 2
+Total Wait: 3
+	Wait at Stop: 2
+	Time on bus: 1
+Name: NiceGuy
+Destination: 2
+Total Wait: 3
+	Wait at Stop: 2
+	Time on bus: 1
+                                   -------Time now is 3------
+~~~~~~~~~Routes report~~~~~~~~~
+Name: Campus Connector - Eastbound
+Num stops: 3
+ID: 0
+Passengers waiting: 0
+ID: 1
+Passengers waiting: 3
+Name: NiceGal01
+Destination: 2
+Total Wait: 4
+	Wait at Stop: 4
+	Time on bus: 0
+Name: NiceGal02
+Destination: 2
+Total Wait: 4
+	Wait at Stop: 4
+	Time on bus: 0
+Name: NiceGal03
+Destination: 2
+Total Wait: 4
+	Wait at Stop: 4
+	Time on bus: 0
+ID: 2
+Passengers waiting: 0
+Name: Campus Connector - Westbound
+Num stops: 3
+ID: 3
+Passengers waiting: 0
+ID: 4
+Passengers waiting: 6
+Name: Hacker01
+Destination: 5
+Total Wait: 4
+	Wait at Stop: 4
+	Time on bus: 0
+Name: Hacker02
+Destination: 5
+Total Wait: 4
+	Wait at Stop: 4
+	Time on bus: 0
+Name: NiceGal04
+Destination: 2
+Total Wait: 4
+	Wait at Stop: 4
+	Time on bus: 0
+Name: NiceGal05
+Destination: 2
+Total Wait: 4
+	Wait at Stop: 4
+	Time on bus: 0
+Name: NiceGal06
+Destination: 2
+Total Wait: 4
+	Wait at Stop: 4
+	Time on bus: 0
+Name: NiceGal07
+Destination: 2
+Total Wait: 4
+	Wait at Stop: 4
+	Time on bus: 0
+ID: 5
+Passengers waiting: 0
+~~~~~~~~~Busses report~~~~~~~~~
+Name: 1000
+Speed: 1
+Distance to next stop: 1
+	Passengers (1): 
+Name: Ninja
+Destination: 4
+Total Wait: 4
+	Wait at Stop: 3
+	Time on bus: 1
+                                   -------Time now is 4------
+~~~~~~~~~Routes report~~~~~~~~~
+Name: Campus Connector - Eastbound
+Num stops: 3
+ID: 0
+Passengers waiting: 0
+ID: 1
+Passengers waiting: 3
+Name: NiceGal01
+Destination: 2
+Total Wait: 5
+	Wait at Stop: 5
+	Time on bus: 0
+Name: NiceGal02
+Destination: 2
+Total Wait: 5
+	Wait at Stop: 5
+	Time on bus: 0
+Name: NiceGal03
+Destination: 2
+Total Wait: 5
+	Wait at Stop: 5
+	Time on bus: 0
+ID: 2
+Passengers waiting: 0
+Name: Campus Connector - Westbound
+Num stops: 3
+ID: 3
+Passengers waiting: 0
+ID: 4
+Passengers waiting: 1
+Name: NiceGal07
+Destination: 2
+Total Wait: 5
+	Wait at Stop: 5
+	Time on bus: 0
+ID: 5
+Passengers waiting: 0
+~~~~~~~~~Busses report~~~~~~~~~
+Name: 1000
+Speed: 1
+Distance to next stop: 2
+	Passengers (5): 
+Name: Hacker01
+Destination: 5
+Total Wait: 5
+	Wait at Stop: 4
+	Time on bus: 1
+Name: Hacker02
+Destination: 5
+Total Wait: 5
+	Wait at Stop: 4
+	Time on bus: 1
+Name: NiceGal04
+Destination: 2
+Total Wait: 5
+	Wait at Stop: 4
+	Time on bus: 1
+Name: NiceGal05
+Destination: 2
+Total Wait: 5
+	Wait at Stop: 4
+	Time on bus: 1
+Name: NiceGal06
+Destination: 2
+Total Wait: 5
+	Wait at Stop: 4
+	Time on bus: 1
+                                   -------Time now is 5------
+~~~~~~~~~Routes report~~~~~~~~~
+Name: Campus Connector - Eastbound
+Num stops: 3
+ID: 0
+Passengers waiting: 0
+ID: 1
+Passengers waiting: 3
+Name: NiceGal01
+Destination: 2
+Total Wait: 6
+	Wait at Stop: 6
+	Time on bus: 0
+Name: NiceGal02
+Destination: 2
+Total Wait: 6
+	Wait at Stop: 6
+	Time on bus: 0
+Name: NiceGal03
+Destination: 2
+Total Wait: 6
+	Wait at Stop: 6
+	Time on bus: 0
+ID: 2
+Passengers waiting: 0
+Name: Campus Connector - Westbound
+Num stops: 3
+ID: 3
+Passengers waiting: 0
+ID: 4
+Passengers waiting: 1
+Name: NiceGal07
+Destination: 2
+Total Wait: 6
+	Wait at Stop: 6
+	Time on bus: 0
+ID: 5
+Passengers waiting: 0
+~~~~~~~~~Busses report~~~~~~~~~
+Name: 1000
+Speed: 1
+Distance to next stop: 1
+	Passengers (5): 
+Name: Hacker01
+Destination: 5
+Total Wait: 6
+	Wait at Stop: 4
+	Time on bus: 2
+Name: Hacker02
+Destination: 5
+Total Wait: 6
+	Wait at Stop: 4
+	Time on bus: 2
+Name: NiceGal04
+Destination: 2
+Total Wait: 6
+	Wait at Stop: 4
+	Time on bus: 2
+Name: NiceGal05
+Destination: 2
+Total Wait: 6
+	Wait at Stop: 4
+	Time on bus: 2
+Name: NiceGal06
+Destination: 2
+Total Wait: 6
+	Wait at Stop: 4
+	Time on bus: 2
+                                   -------Time now is 6------
+~~~~~~~~~Routes report~~~~~~~~~
+Name: Campus Connector - Eastbound
+Num stops: 3
+ID: 0
+Passengers waiting: 0
+ID: 1
+Passengers waiting: 3
+Name: NiceGal01
+Destination: 2
+Total Wait: 7
+	Wait at Stop: 7
+	Time on bus: 0
+Name: NiceGal02
+Destination: 2
+Total Wait: 7
+	Wait at Stop: 7
+	Time on bus: 0
+Name: NiceGal03
+Destination: 2
+Total Wait: 7
+	Wait at Stop: 7
+	Time on bus: 0
+ID: 2
+Passengers waiting: 0
+Name: Campus Connector - Westbound
+Num stops: 3
+ID: 3
+Passengers waiting: 0
+ID: 4
+Passengers waiting: 1
+Name: NiceGal07
+Destination: 2
+Total Wait: 7
+	Wait at Stop: 7
+	Time on bus: 0
+ID: 5
+Passengers waiting: 0
+~~~~~~~~~Busses report~~~~~~~~~
+Name: 1000
+Speed: 1
+Distance to next stop: 0
+	Passengers (0): 
+                                   -------COMPLETE SIMULATION------
