@@ -10,7 +10,11 @@
 <!-- ### Style Check:
 
 - `[path_to_cpplint]/cpplint/cpplint-cse.sh --root=[path_target_dir] [file_name]` -->
+### A snapshot of what the bus simulation looks like
+![Image of bus_sim_01](https://github.com/le000043/Bus_simulation/tree/master/project/images/bus_sim_01.png)
+### UML diagram can be found in Bus_simulation/project/docs/UML_FINAL_2
 ### Setting up:
+**NOTE:** It is best to run on CSE Linux machine. Additionally, any Linux machines should be able to run this application
 1. First, we need to clone the program.
 2. Open users favorite browser, Google Chrome is the preferable choice here.
 3. Before moving forward, users need to set up a github.umn.edu account. On users browser, create a new tab and type https://github.umn.edu/ . Hit Enter.
@@ -26,7 +30,6 @@
 12. Then type "git clone git@github.umn.edu:umn-csci-3081-f19/repo-le000043.git". Hit Enter.
 13. Users are expected to observe a download from git.
 14. When the download is complete, type "cd repo-le000043".
-
 
 
 #### Running simulation without a visualizer
@@ -51,6 +54,17 @@
  17. The format of the command to run the simulation is: ./build/bin/configuration_sim <config_filename> <length of simulation> <time between busses for first route> <time between for second route>
  18. Every general route requires two additional inputs of time between busses for its two routes.
  19. If users wish to create a new configuration file, users must follow the provided template inside the config.txt. New configuration file must be inside config folder.
+### Running a simulation with a visualizer:
+1. In project/src directory. Type "make clean". Hit Enter.
+2. Type "make". Hit Enter.
+3. Repeat steps 3 and 4 of "a) Overview of Configuration file".
+4. Type "./build/bin/vis_sim 8081". Then hit Enter. The number 8081 is a port number. A port number has to be greater than 8000 and not multiples of 10.
+5. Open favorite browser, type http://127.0.0.1:8081/web_graphics/project.html. 8081 here can be replaced by whatever port number users had pick previously.
+6. Before hitting start, there are 3 slide bars that represent the length of simulation, time between busses of first route, and time between busses of second route. Adjust the bar to get desirable simulation configuration.
+7. Click Start to observe the simulation.
+8. To stop the simulation, go back to the terminal where users compile the program, hit Ctrl+C.
+9. If users want to re-run user program, refer to steps 5-6 of "B. Running a simulation with a visualizer".
+10. If users made changes in config.txt, repeat step 8 of "Running a simulation with a visualizer", type "cd src". Hit Enter. The repeat steps 3 and 4 of "B. Running a simulation with a visualizer"
 
 ### Running simulation with configuration file
 1. In project/src directory. Type "make clean". Hit Enter.
@@ -64,6 +78,7 @@
 9. If users want to re-run user program, refer to steps 5-6 of "B. Running a simulation with a visualizer".
 10. If users made changes in config.txt, repeat step 8 of "Running a simulation with a visualizer", type "cd src". Hit Enter. The repeat steps 3 and 4 of "B. Running a simulation with a visualizer"
 **<port_number> can be anything. Try and pick numbers above 8000 and not multiples of 10.**
+
 
 ### TESTING
  **Regression Test**
