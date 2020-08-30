@@ -10,7 +10,7 @@
 <!-- ### Style Check:
 
 - `[path_to_cpplint]/cpplint/cpplint-cse.sh --root=[path_target_dir] [file_name]` -->
-### Running the Simulator::
+### Setting up:
 1. First, we need to clone the program.
 2. Open users favorite browser, Google Chrome is the preferable choice here.
 3. Before moving forward, users need to set up a github.umn.edu account. On users browser, create a new tab and type https://github.umn.edu/ . Hit Enter.
@@ -30,7 +30,6 @@
 
 
 #### Running simulation without a visualizer
-II. Running a simulation without a visualizer:
  a) Overview of Configuration file
  1. Type "cd project/src". Hit Enter.
  2. Type "make". Hit Enter.
@@ -83,7 +82,6 @@ II. Running a simulation without a visualizer:
  * Configuration sim is designed in a way that user can change simulation parameters such as length of simulation and time between busses in the terminal. For future developer, navigate to project/src directory and type "make" and Enter to
  * make all target. Both config_sim and vis_sim must be run from project directoy instead of src directory. 
  **Main Classes overview**
- * 
  * Passenger: each Passenger has a stopId of where he/she wants to be at.
  * Also, time_on_bus_ and wait_at_stop_ of each
  * passenger indicate the time passenger traveling on bus and waiting at the stop respectively.
@@ -92,7 +90,7 @@ II. Running a simulation without a visualizer:
  * a getter of stopId and a getter of total waiting time which is a sum of time traveling on bus and waiting at stop.
  * Passengers will be either on a bus or at a stop, it makes sense that either the stop or the bus that passenger at will invoke passenger Update method.
  * Additionally, each passenger has a report method to print out value of all private variables.
- *
+
  * Stop: Inside the list of private variables of each stop object, each stop stores a longitude, latitude, stop ID and a list of passengers.
  * Each stop object has a constructor to initialize its stop ID, longitude and latitude. As passengers will wait at a stop then stop needs to have a list of passengers waiting at it.
  * AddPassenger method will push a given passenger to its
@@ -101,7 +99,7 @@ II. Running a simulation without a visualizer:
  * so loading passenger to bus within stop object makes sense.
  * Each stop has an Update method that update all of its passengers. Each stop will have a getter of its stop ID. Report method of each stop object will report its ID and
  * how many passengers waiting at the stop. Class Stop has a method that is used by Route to extract the location and number of passenger waiting at stop.
- *
+
  * Route: route is a collection of stops then each route will store a list of stop with an iterator and a list of distance between stops with an iterator. Also, each route will have a pointer pointing to
  * the last stop object. By recording the last stop reference, it can be used to see if the bus is actually at the last stop in method IsLastStop. Also current stop will be recorded so it can be used
  * by bus. Therefore, bus will know what stop it needs to be at in the future after arriving at a stop. Route needs to has a clone method as other bus would not use the same stop lists otherwise,one's stop iterator
@@ -109,7 +107,7 @@ II. Running a simulation without a visualizer:
  * for bus to quickly use. When bus arrive at stop, bus will call NextStop () on current route to update its stop pointer and distance between pointer.
  * Inside the route Update, generate passengers before Update as to prevent passenger wait_at_stop_ be zero. Route Update should not call update on bus as inside local simulator, bus update will get called twice.
  * Class Route has a method to update and extract the location of stops and the number of passenger waiting at stops to the visualizer.
- * 
+ 
  * Bus: bus carries passengers and travels across stops. Bus needs to have a reference to route as it needs to get the next stop from route whenever bus arrives at a stop. Also, as each bus has two routes;therefore, it is another main reason bus needs to know route.
  * Bus needs to know if it needs to switch route and what route to switch to, which is another reason bus needs to know its route. Bus have reference to stop as it needs to know if the stops it arrives at is the last stop to switch route.
  * bus also needs to handle passenger unloading/loading. Passengers on the bus cannot remove its self from the list;therefore, bus needs to remove certain passengers off the list when it arrive at stops. Bus also needs to takes care of the loading passenger as
